@@ -1,5 +1,44 @@
 $white: #ecf0f1;
+$blue: #2c3e50;
 
 body {
 	background-color: $white;
+}
+
+.container {
+	text-align: center;
+}
+
+#capture-button {
+	$button-size: 75px;
+
+	display:inline-block;
+
+	width: $button-size;
+	height: $button-size;
+	line-height: $button-size;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #2c3e50;
+	border-radius: 100%;
+
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+	cursor: pointer;
+
+
+	.fa {
+		font-size: 30px;
+		color: $blue;
+		line-height: inherit;
+
+		&.hover {
+			color: $white;
+		}
+	}
+
+	&.hover {
+		background-color: $blue;
+	}
 }
