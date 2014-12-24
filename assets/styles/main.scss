@@ -6,7 +6,19 @@ body {
 }
 
 .container {
+	padding: 20px;
 	text-align: center;
+}
+
+canvas {
+	display:none;
+}
+
+video {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
 #capture-button {

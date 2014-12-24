@@ -1,1 +1,36 @@
-body{background-color:#ecf0f1}.container{text-align:center}#capture-button{display:inline-block;width:75px;height:75px;line-height:75px;vertical-align:middle;text-align:center;border:1px solid #2c3e50;border-radius:100%;-webkit-transition:all .3s;transition:all .3s;cursor:pointer}#capture-button .fa{font-size:30px;color:#2c3e50;line-height:inherit}#capture-button .fa.hover{color:#ecf0f1}#capture-button.hover{background-color:#2c3e50}
+body {
+  background-color: #ecf0f1; }
+
+.container {
+  padding: 20px;
+  text-align: center; }
+
+canvas {
+  display: none; }
+
+video {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+#capture-button {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #2c3e50;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer; }
+  #capture-button .fa {
+    font-size: 30px;
+    color: #2c3e50;
+    line-height: inherit; }
+    #capture-button .fa.hover {
+      color: #ecf0f1; }
+  #capture-button.hover {
+    background-color: #2c3e50; }
